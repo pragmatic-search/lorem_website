@@ -124,5 +124,61 @@ a{
 .quote-box{
     height: 350px;
     background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    height: auto;
+}
+
+.author{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.inclusion{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callout{
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.alert{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.click{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
 }
