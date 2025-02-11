@@ -1,11 +1,11 @@
-html{
+body{
     margin: 0;
-    border: 0;
     padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .top{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1F2937;
     min-height: auto;
     color: white;
@@ -93,3 +93,36 @@ a{
     max-width: 40%;
 }
 
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info{
+    text-align: center;
+    height: 350px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 3px solid royalblue;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 40px;
+}
+
+.caption{
+    margin: 5px;
+}
+
+.quote-box{
+    height: 350px;
+    background-color: #e5e7eb;
+
+}
